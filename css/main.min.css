@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 18.75px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 0 41px;
+}
+
+.header__list {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0 41px;
+}
+
+.header__list a {
+    text-decoration: none;
+    color: #686765;
+}
+
+.header__list a:hover {
+    color: #DC780B;
+    font-weight: 500;
+}
+
+.header__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0 35px;
+}
+
+.header__button {
+    padding: 14px 30px;
+    border-radius: 5px;
+    background-color: #DC780B;
+    color: #fff;
+}
+
+.header__button:active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background-color: #ff8400;
+}
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.hero__content h1 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 57.6px;
+}
+
+.text {
+    font-weight: 500;
+    line-height: 24px;
+    color: #150C01;
+    margin-top: 30px;
+    opacity: 70%;
+}
+
+.hero__button {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+}
+
+.hero__button button:nth-child(1) {
+    background-color: #DC780B;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 33px;
+    font-weight: 500;
+}
+
+.hero__button button:nth-child(1):active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background-color: #ff8400;
+}
+
+.hero__button button:nth-child(2) {
+    background-color: white;
+    border: 1.5px solid#DC780B;
+    border-radius: 5px;
+    color: #DC780B;
+    padding: 20px 33px;
+    font-weight: 500
+}
+
+.hero__button button:nth-child(2):active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background-color: #fff7f0;
+}
+
+.features {
+    text-align: center;
+    margin-top: 115px;
+}
+
+strong {
+    text-transform: uppercase;
+    color: #DC780B;
+    font-weight: 500;
+    letter-spacing: 3px;
+    opacity: 70%;
+}
+
+.bold {
+    font-size: 31.25px;
+    line-height: 35px;
+    color: #150C01;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.features__card {
+    max-width: 300px;
+}
+
+.features__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 30px 90px;
+    margin-top: 44px;
+}
+
+.features__card h5 {
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    margin-top: 33px;
+}
+
+.features__card p {
+    line-height: 24px;
+    color: #150C01;
+    font-weight: 500;
+    opacity: 70%;
+    margin-top: 15px;
+}
+
+.about-us {
+    margin-top: 123.73px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 0 97px;
+}
+
+.about-us img {
+    border-radius: 30px;
+    max-width: 50%;
+    width: 100%;
+}
+
+.about__button {
+    padding: 12px 30px;
+    color: white;
+    background-color: #DC780B;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.about__button:active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background-color: #ff8400;
+}
+
+.menu {
+    margin-top: 115.27px;
+}
+
+.menu__content {
+    margin: 0 auto;
+    max-width: 748px;
+    text-align: center;
+}
+
+.menu__cards {
+    max-width: 1140px;
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 30px 30px;
+}
+
+.menu__card {
+    max-width: 360px;
+    border: 1px solid #e1dede;
+    border-radius: 80px 10px 10px 10px;
+}
+
+.menu__card:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: white;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu__card>img {
+    border-radius: 80px 0 80px 0;
+}
+
+.menu_card_bold-text {
+    font-size: 25px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.menu__card_content {
+    padding: 25px;
+}
+
+.menu__card_content p {
+    color: #150C01;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 70%;
+    margin-top: 20px;
+}
+
+.menu_card_bold-text h3 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+}
+
+.menu__card__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu__button {
+    color: #DC780B;
+    padding: 12px 30px;
+    border: 1px solid #DC780B;
+    background-color: white;
+}
+
+.menu__button:active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background-color: #fff7f0;
+}
+
+.menu form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu__card__icon>img:active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background-color: #ff8400;
+    border-radius: 5px;
+}
+
+.stars {
+    color: #DC780B;
+}
+
+.take-away {
+    background-color: #FBF1E7;
+    height: 518px;
+    margin-top: 187px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 0 128px;
+}
+
+.take-away__content {
+    max-width: 555px;
+}
+
+.take-away__button a:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0 8px;
+    background-color: #150C01;
+    padding: 11px 28px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.take-away__button a:nth-child(1):active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background-color: #6e6e6e;
+}
+
+.take-away__button a:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0 8px;
+    background-color: #FBF1E7;
+    border: 1.5px solid #d7d6d5;
+    padding: 11px 28px;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.take-away__button a:nth-child(2):active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background-color: #fff7f0;
+}
+
+.take-away__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0 30px;
+    margin-top: 39px;
+}
+
+.testimonial {
+    text-align: center;
+    margin: 213px auto 0 auto;
+}
+
+.testimonial__content {
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.testimonial__mask-card {
+    margin-top: 73px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.testimonial__mask-content {
+    margin-top: 42px;
+    max-width: 506px;
+}
+
+.testimonial__mask-card small {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #000000;
+    opacity: 70%;
+}
+
+.testimonial__mask-card p {
+    color: #000000;
+    margin-top: 32px;
+}
+
+.contact {
+    height: 448px;
+    background-color: #ffead4;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.contact__contant {
+    max-width: 750px;
+}
+
+.search-card {
+    max-width: 750px;
+    height: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 46px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.search-button {
+    padding: 30px 57px;
+    background-color: #DC780B;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+input {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: transparent;
+    outline: none;
+    color: #150C01;
+    padding: 32px;
+}
+
+.search-card>input:focus {
+    position: sticky;
+    z-index: 1;
+    -webkit-box-shadow: rgba(3, 19, 77, 0.1) 0px 2px 4px 0px, rgba(3, 19, 77, 0.12) 0px 2px 16px 0px;
+    box-shadow: rgba(3, 19, 77, 0.1) 0px 2px 4px 0px, rgba(3, 19, 77, 0.12) 0px 2px 16px 0px;
+}
+
+.search-card>button:active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background-color: #ff8400;
+}
+
+footer {
+    height: 429px;
+    background-color: #252525;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 31px 31px;
+}
+
+.footer_list_media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0 10px;
+}
+
+.footer__wrapper h4 {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Philosopher", sans-serif;
+    line-height: 20.16px;
+}
+
+.list {
+    list-style: none;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-top: 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+}
+
+.list-link {
+    text-decoration: none;
+    color: white;
+    opacity: 70%;
+
+}
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
